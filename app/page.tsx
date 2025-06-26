@@ -4,6 +4,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import {SplitText} from "gsap/SplitText";
 import gsap from "gsap";
 import {useRef} from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 export default function Home() {
 	gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -24,11 +26,14 @@ export default function Home() {
 				scale: 1.5,
 			});
 		});
-	}, []);
-	return (
 		
-		<main className={"flex-center box"}>
-			<h1 className={"text-3xl text-indigo-500"}>Serega Super Coder</h1>
+		
+	}, []);
+	
+	return (
+		<main>
+			<Navbar />
+			<Hero />
 		</main>
 	);
 }
