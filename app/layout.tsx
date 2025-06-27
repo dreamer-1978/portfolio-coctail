@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${modernMegra.className} antialiased `}
+        className={`${modernMegra.variable} antialiased `}
       >
         {children}
       </body>

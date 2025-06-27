@@ -19,26 +19,26 @@ body {
 }
 
 /* Контейнер */
-.container {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+/*.container {*/
+/*  width: 100%;*/
+/*  max-width: 1440px;*/
+/*  margin: 0 auto;*/
+/*  padding: 0 20px;*/
+/*}*/
 
-/* Для больших экранов можно добавить отступы поменьше */
-@media (max-width: 1440px) {
-  .container {
-    padding: 0 40px;
-  }
-}
+/*!* Для больших экранов можно добавить отступы поменьше *!*/
+/*@media (max-width: 1440px) {*/
+/*  .container {*/
+/*    padding: 0 40px;*/
+/*  }*/
+/*}*/
 
-/* Для мобильных устройств */
-@media (max-width: 768px) {
-  .container {
-    padding: 0 20px;
-  }
-}
+/*!* Для мобильных устройств *!*/
+/*@media (max-width: 768px) {*/
+/*  .container {*/
+/*    padding: 0 20px;*/
+/*  }*/
+/*}*/
 
 @utility flex-center {
   @apply flex justify-center items-center;

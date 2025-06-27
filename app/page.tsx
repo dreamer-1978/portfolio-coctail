@@ -6,6 +6,7 @@ import gsap from "gsap";
 import {useRef} from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Cocktails from "@/components/Cocktails";
 
 export default function Home() {
 	gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -34,6 +35,7 @@ export default function Home() {
 		<main>
 			<Navbar />
 			<Hero />
+			<Cocktails />
 		</main>
 	);
 }
