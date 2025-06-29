@@ -26,7 +26,7 @@ const Navbar = () => {
 	
 	return (
 		<nav>
-			<div>
+			<div className={"px-2 md:px-4"}>
 				<a
 					href="#home"
 					className="flex items-center gap-2"

@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Cocktails from "@/components/Cocktails";
 import About from "@/components/About";
+import Art from "@/components/Art";
 
 export default function Home() {
 	gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -19,9 +20,8 @@ export default function Home() {
 		const boxes = gsap.utils.toArray<HTMLElement>(scrollReff.current.children);
 		
 		boxes.forEach((box) => {
-			// Ваша анимация для каждого элемента
 			gsap.to(box, {
-				x: 150, // пример анимации
+				x: 150,
 				duration: 1,
 				borderRadius: "50%",
 				rotation: 360,
@@ -38,6 +38,7 @@ export default function Home() {
 			<Hero />
 			<Cocktails />
 			<About />
+			<Art/>
 		</main>
 	);
 }
